@@ -1,5 +1,5 @@
 # limited-time-link
-A system of limited time link on nginx proxy
+A way to implement limited time link on nginx proxy
 
 # wtf ? 
 You want to give someone access for a limited time to a service behind a proxy ?
