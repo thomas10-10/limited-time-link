@@ -62,7 +62,6 @@ https://127.0.0.1:9443 is your service !
 ( optional, you can redirect your secret link to your disposable link ) like this ->
 ```
   location ~ /goToLink/your-secret-address-to-get-time-link-like:26MFP045... {   
-        # you can add more security like auth or on remote adress
         return 301 https://name.domain.com/1_generate-token_/ ;  
   }
 ```
