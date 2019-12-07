@@ -59,7 +59,7 @@ https://127.0.0.1:9443 is your service !
   }
 
 ```
-( optional, you can redirect your secret link to your disposable link ) like this ->
+( very optional, you can redirect your secret link to your disposable link ) like this ->
 ```
   location ~ /goToLink/your-secret-address-to-get-time-link-like:26MFP045... {   
         return 301 https://name.domain.com/1_generate-token_/ ;  
@@ -80,6 +80,6 @@ add in your cron.d/token your script
 00 20 * * * debian /mydir/token.sh
 ```
 
-End 
+End , get your disposable link in cron or via your secret link 
 
 later I'll maybe encapsulate the nginx server in a docker container
