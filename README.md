@@ -74,7 +74,7 @@ sudo sed -i "s/1_[a-Z0-9]*_/1_$(hexdump -n 16 -v -e '/1 "%02X"' /dev/urandom)_/g
 ```
 chmod +x token.sh
 
-add in your cron.d/token your script
+add in your cron.d/token your script with time desired( here: every day )
 
 ```
 00 20 * * * debian /mydir/token.sh
